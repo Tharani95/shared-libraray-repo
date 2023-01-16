@@ -1,4 +1,4 @@
-def calls()
+def calls(String name)
 {
-sh 'echo hello world'
+  sh 'echo hello ${name}'
 }
